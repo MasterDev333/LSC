@@ -34,6 +34,7 @@ jQuery(document).ready(function () {
   isElementExist(".img-a-video", anImgRightOnScrollVewportCheckerAndVideo);
   isElementExist(".popup-video-show", videoPopupMagnific);
   isElementExist(".swiper-slider", swipeCommunityInit);
+  isElementExist(".slick-slider", slickSliderInit);
   isElementExist(".scroll-link", myScrollLink);
   isElementExist(".a-bg-up", blockHeight, [".a-bg-up"]);
   isElementExist(".a-bg-down", blockHeight, [".a-bg-down"]);
@@ -793,10 +794,8 @@ function swipeCommunityInit() {
     watchSlidesProgress: true,
     spaceBetween: 10,
     centeredSlides: true,
-// 	slidesPerView: 'auto',
     roundLengths: true,
     loop: true,
-// 	loopedSlides: 1,
     breakpoints: {
       767: {
         spaceBetween: 30,
@@ -811,11 +810,6 @@ function swipeCommunityInit() {
       type: "fraction",
     },
     on: {
-// 		beforeInit: function (event) {
-// 			if(event.$el.hasClass('swiper-full')) {
-// 				event.$el.find('.swiper-slide').css('width', 'auto');
-// 			}
-// 		},
 		init: function (event) {
 			var elActive = event.$el.find(".swiper-slide-active");
 			var elDataBlock = event.$el.find(".swiper-data-tittle");
@@ -866,12 +860,38 @@ function swipeCommunityInit() {
 		},
     },
   });
-//   if ($('.swiper-community.swiper-full').length) {
-// 	  setTimeout(function() {
-// 		  swiperCommunity.update(true);
-// 		  swiperCommunity.slideTo(1, 0);
-// 	  }, 100);
-//   }
+}
+
+// slick Slider
+function slickSliderInit() {
+  let $slider = $('.slick-slider').find('.slider-wrapper');
+  $slider.on('init reinit afterChange', function(event, slick, currentSlide, nextSlide) {
+	  let $navigator = $(this)
+	  .parent(".slick-slider")
+	  .find(".swiper-pagination");
+	  var i = (currentSlide ? currentSlide : 0) + 1;
+	  let curText = ("0" + i).slice(-2);
+	  let totalText = ("0" + slick.slideCount).slice(-2);
+	  $navigator.text(curText + " / " + totalText);
+  });
+  $slider.slick({
+    dots: false,
+    arrows: true,
+    speed: 1000,
+    variableWidth: true,
+	centerMode: true,
+	centerPadding: "10%",
+	focusOnSelect: true,
+    prevArrow: $('.swiper-button-prev'),
+    nextArrow: $('.swiper-button-next'),
+	responsive: [{
+		breakpoint: 767,
+		settings: [{
+			centerMode: false,
+			variableWidth: false,	
+		}]
+	}]
+  });
 }
 
 // stick plugin - more options http://leafo.net/sticky-kit/#reference

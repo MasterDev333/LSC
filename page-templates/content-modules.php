@@ -877,11 +877,11 @@ get_header(); ?>
 									*/ ?>
 									<div class="container">
 										<div class="swiper-community swiper-full slick-slider">
-											<div class="swiper-wrapper">
+											<div class="slider-wrapper">
 												<?php while( has_sub_field( 'slider' ) ): ?>
-													<div class="swiper-slide">
-														<figure class="slide-bgimg">
-															<div class="ar-16-8 bg-str">
+													<div class="">
+														<figure class="">
+															<div class="">
 																<?php $image = get_sub_field( 'image_desktop' ) ?>
 																<?php if( !empty( $image ) ): ?>
 																	<?php $bg_url = $image['sizes']['slider-2']; ?>

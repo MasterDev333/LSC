@@ -1,0 +1,874 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+.btn-search-close {
+	font-size: 35px;
+	color: #fff;
+}
+.btn-search-close::before {
+	display: none;
+}
+
+.donate-form-wrapper {
+}
+
+main .donate-form-wrapper #bboxdonation_divForm .BBFormRadioLabelGivingLevel{
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	color: #D34727;
+	background: #FFFFFF;
+	border: 1px solid #D34727;
+	border-radius:0px;
+	width:92%;
+	margin:auto;
+	float:none;
+	padding:13px;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm .BBFormRadioLabelGivingLevel.BBFormRadioLabelGivingLevelOther{
+	color: rgba(20, 28, 59, 0.25);
+	border-color:#fff;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm .BBFormRadioLabelGivingLevel.BBFormRadioLabelGivingLevelSelected{
+	color: #fff;
+    background: #D34727;
+    border: 1px solid #D34727;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm .BBFormRadioLabelGivingLevel.BBFormRadioLabelGivingLevelOther.BBFormRadioLabelGivingLevelSelected{
+	background:#fff;
+	padding:0px;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm .BBFormRadioLabelGivingLevel.BBFormRadioLabelGivingLevelOther input{
+	width:100%;
+	margin: 0;
+    height: 58px;
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	color: #D34727;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm .BBFormRadioLabelGivingLevel *{
+	transition:none !Important;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm .BBFormRadioLabelGivingLevel.BBFormRadioLabelGivingLevelOther.BBFormRadioLabelGivingLevelSelected .BBFormRadioDescriptionOther{
+	display:none;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm #bboxdonation_gift_fldAmountWithLevels{
+	margin:0px -5px;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm #bboxdonation_gift_rdlstGivingLevels{
+	
+}
+
+main .donate-form-wrapper #bboxdonation_divForm #bboxdonation_gift_rdlstGivingLevels > .BBFormRadioItem{
+	width:25%;
+	margin:0px;
+	margin-bottom:15px;
+}
+
+
+
+
+main .donate-form-wrapper #bboxdonation_divForm ::-webkit-input-placeholder {
+   text-transform:capitalize;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm :-moz-placeholder { /* Firefox 18- */
+   text-transform:capitalize;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm ::-moz-placeholder {  /* Firefox 19+ */
+   text-transform:capitalize;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm :-ms-input-placeholder {  
+   text-transform:capitalize;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm #bboxdonation_recurrence_divRecurrenceInfo{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 14px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #141C3B;
+	padding-bottom:10px;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm #bboxdonation_recurrence_divRecurrenceInfo select{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm .BBFormFieldRecurrenceInfo{
+	padding-left:0px;
+	margin-left:0px;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm span.BBFormFieldLabel,
+main .donate-form-wrapper #bboxdonation_divForm label.BBFormFieldLabel{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 14px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #141C3B;
+	padding-bottom:10px;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm .BBFormSectionHeading label.BBFormFieldLabelEdit{
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	color: #141C3B;
+	padding-bottom:5px;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm .BBFormSectionHeading{
+	padding-left:0px;
+	margin-bottom: 0px;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm legend{
+	margin-bottom:32px;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm .BBDFormSectionComments legend{
+	margin-bottom:0px;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm #bboxdonation_designation_divSection label.BBFormFieldLabel {
+	display: block;
+    float: none;
+    width: auto;
+    text-align: left;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm .BBDFormSectionComments .BBFormFieldLabel{
+    display: block;
+    float: none;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+}
+
+
+main .donate-form-wrapper #bboxdonation_divForm select,
+main .donate-form-wrapper #bboxdonation_divForm input[type=text],
+main .donate-form-wrapper #bboxdonation_divForm input[type=email],
+main .donate-form-wrapper #bboxdonation_divForm input[type=tel],
+main .donate-form-wrapper #bboxdonation_divForm textarea{
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	height: 60px;
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 34px;
+	color: #141C3B;
+	opacity:1;
+	border-radius:0;
+	padding-left:25px;
+	padding-right:15px;
+	margin-bottom:10px;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm select{
+	background:url(images/form-select-arrow.svg) no-repeat right 15px center #fff;
+	appearance:none;
+	padding-right:35px;
+	padding-left:25px;
+	-webkit-appearance:none;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm select:focus{
+	outline:none;
+	border-radius:0px;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm .BBDFormSectionComments textarea{
+	width:100%;
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	height: 169px;
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(20, 28, 59, 1);
+	margin: 0;
+    max-width: 100%;
+	opacity:1;
+	border-radius:0;
+	padding-left:25px;
+	padding-right:15px;
+	padding-top:15px;
+}
+
+main .donate-form-wrapper #bboxdonation_divForm .BBFormFieldContainer{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+main .donate-form-wrapper .BBFormSection.BBFormSectionRecurrenceInfo{
+	padding-top: 10px;
+}
+
+main .donate-form-wrapper .BBFormSectionRecurrenceInfo fieldset .BBFormFieldContainer{
+	margin-top:0px;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_recurrence_divRecurrenceCheckbox input[type=checkbox],
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_tribute_divTributeGeneral input[type=checkbox],
+.donate-form-wrapper #bboxdonation_divForm #divTributeAcknowledge input[type=checkbox],
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_fldOrgGift input[type=checkbox],
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_fldAnonymous input[type=checkbox]{
+	display:none;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_recurrence_divRecurrenceCheckbox label.BBFormCheckbox,
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_tribute_divTributeGeneral label.BBFormCheckbox,
+.donate-form-wrapper #bboxdonation_divForm #divTributeAcknowledge label.BBFormCheckbox,
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_fldOrgGift label.BBFormCheckbox,
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_fldAnonymous label.BBFormCheckbox{
+	position:relative;
+	padding-left:35px;
+	display: block;
+    width: auto;
+    line-height: 130%;
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	text-transform:none;
+	color: #141C3B;
+	letter-spacing:0px;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_recurrence_divRecurrenceCheckbox label.BBFormCheckbox:before,
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_tribute_divTributeGeneral label.BBFormCheckbox:before,
+.donate-form-wrapper #bboxdonation_divForm #divTributeAcknowledge label.BBFormCheckbox:before,
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_fldOrgGift label.BBFormCheckbox:before,
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_fldAnonymous label.BBFormCheckbox:before{
+	content:'';
+	display:block;
+	background:url(images/form-checkbox.png) no-repeat 0px 0px;
+	width:24px;
+	height:24px;
+	position:absolute;
+	left:0;
+	top:0px;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_recurrence_divRecurrenceCheckbox input[type=checkbox]:checked + label.BBFormCheckbox:before,
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_tribute_divTributeGeneral input[type=checkbox]:checked + label.BBFormCheckbox:before,
+.donate-form-wrapper #bboxdonation_divForm #divTributeAcknowledge input[type=checkbox]:checked + label.BBFormCheckbox:before,
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_fldOrgGift input[type=checkbox]:checked + label.BBFormCheckbox:before,
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_fldAnonymous input[type=checkbox]:checked + label.BBFormCheckbox:before{
+	background:url(images/form-checkbox.png) no-repeat -39px 0px;	
+}
+
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_recurrence_divRecurrenceInfo{
+	padding-top:10px;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #divGeneralTributeInfo{
+	display:flex;
+	justify-content:space-between;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #divGeneralTributeInfo > div{
+	width:49%;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #divGeneralTributeInfo > div select,
+.donate-form-wrapper #bboxdonation_divForm #divGeneralTributeInfo > div input{
+	max-width:100%;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #divGeneralTributeInfo #bboxdonation_tribute_lblGeneralTributeInfo{
+	width:auto;
+	text-align:left;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #divGeneralTributeInfo  #bboxdonation_tribute_txtTributeRecordName{
+	margin:0px;
+	width:100%;
+	margin-top:24px !important;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_divBillingSection .BBFormFieldLabel,
+.donate-form-wrapper #bboxdonation_divForm #divTributeAcknowledgeeInfo .BBFormFieldLabel{
+	display: block;
+    width: 100%;
+    text-align: left;	
+}
+
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_divBillingSection #bboxdonation_billing_billingAddress_ddCountry,
+.donate-form-wrapper #bboxdonation_divForm #divTributeAcknowledgeeInfo #bboxdonation_tribute_tributeAddress_ddCountry{
+	width:49%;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_divBillingSection #bboxdonation_billing_billingAddress_txtAddress,
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_divBillingSection #bboxdonation_billing_billingAddress_txtCity,
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_divBillingSection #bboxdonation_billing_divEmail input,
+.donate-form-wrapper #bboxdonation_divForm #divTributeAcknowledgeeInfo #bboxdonation_tribute_tributeAddress_txtAddress,
+.donate-form-wrapper #bboxdonation_divForm #divTributeAcknowledgeeInfo #bboxdonation_tribute_tributeAddress_txtCity,
+.donate-form-wrapper #bboxdonation_divForm #divTributeAcknowledgeeInfo #bboxdonation_billing_divEmail input,
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_txtOrgName{
+
+	width:100%;
+	max-width:100%;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #fldIndivInfo #divName input,
+.donate-form-wrapper #bboxdonation_divForm .BBFieldBillingStateZip select,
+.donate-form-wrapper #bboxdonation_divForm .BBFieldBillingStateZip input,
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_tribute_txtFirstName,
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_tribute_txtLastName{
+	width:49%;
+	max-width:49%;
+	margin-right:0px;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #fldIndivInfo #divName input:last-of-type,
+.donate-form-wrapper #bboxdonation_divForm #divTributeAcknowledgeeInfo .BBTwoFields input:last-of-type,
+.donate-form-wrapper #bboxdonation_divForm .BBFieldBillingStateZip input{
+	float:right;
+}
+
+.donate-form-wrapper #bboxdonation_divForm *{
+	box-shadow:none !important;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_payment_BBFormCCDetails label{
+	display: block;
+    width: 100%;
+    text-align: left;		
+	margin-left:0px;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_payment_txtCardholder,
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_payment_txtCardNumber{
+	width:100%;
+	max-width:100%;
+}
+
+.donate-form-wrapper #bboxdonation_divForm .BBExpirationCSC{
+	display:flex;
+}
+
+.donate-form-wrapper #bboxdonation_divForm .BBExpirationCSC #DC_ValidOther{
+	width:69%;
+}
+
+.donate-form-wrapper #bboxdonation_divForm .BBExpirationCSC #DCCreditSecurityCode{
+	width:28%;
+	position:relative;
+}
+
+.donate-form-wrapper #bboxdonation_divForm .BBExpirationCSC #DC_ValidOther select{
+	width:46%;
+   text-transform:capitalize;
+}
+
+.donate-form-wrapper #bboxdonation_divForm .BBExpirationCSC #DC_ValidOther select:first-of-type{
+	margin-right:11px;
+}
+
+.donate-form-wrapper #bboxdonation_divForm .BBExpirationCSC #DCCreditSecurityCode input{
+	width:100% !important;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_payment_BBFormCCDetails{
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_payment_BBFormCCDetails > *{
+	width:100%;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_payment_BBFormCCDetails #DCCreditType{
+	order: -1;
+    width: 40%;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_payment_BBFormCCDetails #bboxdonation_payment_divProcessedByBlackbaud{
+	order: 0;
+    width: 60%;
+	margin-bottom: 30px;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_payment_BBFormCCDetails #bboxdonation_payment_divProcessedByBlackbaud a{
+	border-bottom: none !important;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: right;
+    color: #D34727;
+    padding: 0;
+    display: block;
+    margin: 0;
+    margin-top: 7px;
+}
+
+.donate-form-wrapper #bboxdonation_divForm .BBExpirationCSC #DCCreditSecurityCode #cscWhatsThis{
+	position: absolute;
+    right: 16px;
+    top: 48px;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_btnSubmit{
+	background: #D34727;
+    border: 1px solid #D34727;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 0;
+    padding: 14px 55px;
+    margin: auto !important;
+    display: block !important;
+}
+
+.donate-form-wrapper #bboxdonation_divForm .BBFormSummaryTotal{
+	position:absolute;
+}
+
+.donate-form-wrapper #bboxdonation_divForm{
+	padding-bottom:60px;
+}
+
+.donate-form-wrapper #bboxdonation_divForm .BBFormButtonRow{
+	padding-top:35px;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_designation_divSection fieldset .BBFormFieldContainer,
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_tribute_divTributeGeneral fieldset .BBFormFieldContainer{
+	margin-top: 0px;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #divTributeAcknowledgeeInfo,
+.donate-form-wrapper #bboxdonation_divForm #divGeneralTributeInfo,
+.donate-form-wrapper #bboxdonation_divForm .BBExpirationCSC,
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_divEmail{
+	padding-top:10px;
+}
+
+
+.donate-form-wrapper #bboxdonation_divForm .BBFormAddress{
+	padding-top:1px;
+}
+
+.donate-form-wrapper #bboxdonation_divForm .BBFormAddress .BBFormFieldContainer,
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_fldOrgGift {
+	margin-bottom:15px;
+}
+
+.donate-form-wrapper #bboxdonation_divForm #bboxdonation_designation_ddDesignations,
+main .donate-form-wrapper #bboxdonation_divForm #bboxdonation_recurrence_divRecurrenceInfo select{
+	width:50%;
+}
+
+
+@media (max-width:600px){
+	.donate-form-wrapper #bboxdonation_divForm #fldIndivInfo #divName input,
+	.donate-form-wrapper #bboxdonation_divForm .BBFieldBillingStateZip select,
+	.donate-form-wrapper #bboxdonation_divForm .BBFieldBillingStateZip input,
+	.donate-form-wrapper #bboxdonation_divForm #bboxdonation_tribute_txtFirstName,
+	.donate-form-wrapper #bboxdonation_divForm #bboxdonation_tribute_txtLastName,
+	.donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_divBillingSection #bboxdonation_billing_billingAddress_ddCountry,
+	.donate-form-wrapper #bboxdonation_divForm #divTributeAcknowledgeeInfo #bboxdonation_tribute_tributeAddress_ddCountry,
+	.donate-form-wrapper #bboxdonation_divForm #divGeneralTributeInfo > div,
+	main .donate-form-wrapper #bboxdonation_divForm #bboxdonation_recurrence_divRecurrenceInfo select,
+	.donate-form-wrapper #bboxdonation_divForm #bboxdonation_payment_BBFormCCDetails #DCCreditType,
+	.donate-form-wrapper #bboxdonation_divForm #bboxdonation_payment_BBFormCCDetails #bboxdonation_payment_divProcessedByBlackbaud,
+	.donate-form-wrapper #bboxdonation_divForm .BBExpirationCSC #DC_ValidOther,
+	.donate-form-wrapper #bboxdonation_divForm .BBExpirationCSC #DCCreditSecurityCode,
+	.donate-form-wrapper #bboxdonation_divForm #bboxdonation_designation_ddDesignations{
+		width:100%;
+		max-width:100%;
+	}
+	
+	.donate-form-wrapper #bboxdonation_divForm #divGeneralTributeInfo,
+	.donate-form-wrapper #bboxdonation_divForm .BBExpirationCSC{
+		display:block;
+	}
+	
+	.donate-form-wrapper #bboxdonation_divForm .BBExpirationCSC #DC_ValidOther label{
+		display:none;
+	}
+	
+	main .donate-form-wrapper #bboxdonation_divForm #bboxdonation_gift_rdlstGivingLevels > .BBFormRadioItem{
+		width:33.33%;
+	}
+	
+	main .donate-form-wrapper #bboxdonation_divForm .BBFormRadioLabelGivingLevel{
+		font-size:22px;
+		padding: 5px;
+	}
+	
+	.donate-form-wrapper #bboxdonation_divForm #divGeneralTributeInfo #bboxdonation_tribute_txtTributeRecordName{
+		margin-top:0px !important;
+	}
+	
+	.donate-form-wrapper #bboxdonation_divForm #bboxdonation_tribute_tributeAddress_lblCountry,
+	.donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_lblEmail{
+		margin-top:7px;
+	}
+	
+	#bboxdonation_BBEmbeddedForm{
+		padding:0px;
+	}
+	
+	.donate-form-wrapper #bboxdonation_divForm #bboxdonation_payment_BBFormCCDetails #bboxdonation_payment_divProcessedByBlackbaud a{
+		text-align:left;
+	}
+	
+	main .donate-form-wrapper #bboxdonation_divForm .BBFormRadioLabelGivingLevel.BBFormRadioLabelGivingLevelOther input{
+		height:42px;
+		font-size:22px;
+	}
+	
+	main .donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_fldAnonymous{
+		padding-top: 15px;
+	}
+	
+	main .donate-form-wrapper #bboxdonation_divForm #bboxdonation_billing_billingAddress_txtZip,
+	main .donate-form-wrapper #bboxdonation_divForm #bboxdonation_tribute_tributeAddress_txtZip{
+		margin-top:10px;
+	}
+	
+	main .donate-form-wrapper #bboxdonation_divForm #DC_ValidOther{
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.donate-form-wrapper #bboxdonation_divForm .BBExpirationCSC #DC_ValidOther select{
+		margin-right:0px !important;
+		width:47%;
+	}
+	
+	main .donate-form-wrapper #bboxdonation_divForm select, main .donate-form-wrapper #bboxdonation_divForm input[type=text], main .donate-form-wrapper #bboxdonation_divForm input[type=email], main .donate-form-wrapper #bboxdonation_divForm input[type=tel], main .donate-form-wrapper #bboxdonation_divForm textarea,
+	main .donate-form-wrapper #bboxdonation_divForm .BBDFormSectionComments textarea{
+		padding-left:15px !important;
+	}
+
+}
+
+.form-white .jcf-select, .form-white .jcf-list {
+    background-color: #fff;
+    border: 1px solid #dadada;
+}
+
+.form-white .jcf-select {
+	border: none;
+}
+
+.footer h6.arrow-right a:hover {
+	text-decoration: none;
+}
+
+.map-inner ol li.data-listing:before {
+	font-weight: normal;
+}
+
+.map-inner ol li.data-listing.active:before,
+a.map-icon-click.active,
+.map-inner ol li.data-listing.active{
+	font-weight: bold;
+	color:var(--theme-brand);
+}
+#map_canvas.mapping .info_content p a.go-now{
+	color:var(--theme-brand);
+	border-bottom: 1px solid var(--theme-brand);
+}
+
+.search-results .link-underline {
+	color: var(--color-brand);
+}
+
+.hero-wrapper .bg-video {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.hero-wrapper .bg-video video {
+	display: block;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	width: 100%;
+}
+
+.hero-wrapper .container {
+	position: relative;
+	z-index: 1;
+}
+
+@media (min-width: 1200px) and (max-width: 1370px) {
+	.hero-wrapper .container {
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		height: 100%;
+		padding: 100px 0 0;
+	}
+}
+.hero-inner {
+	width: 100%;
+}
+body[data-theme='red'] section.bg-blue.text-white  .btn:hover,
+body[data-theme='green'] section.bg-blue.text-white  .btn:hover,
+body[data-theme='blue'] section.bg-blue.text-white  .btn:hover {
+	border-color:  #FFF;
+	color:  #FFF;
+}
+.plans-controls-list a {
+	font-weight:  normal;
+}
+
+/*accordion opener fix*/
+
+
+.accordion li a:before {
+	position:absolute;
+	top:2.8rem;
+	left:2rem;
+	font-size:2.4rem;
+	color:var(--theme-brand);
+	-webkit-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	transition:all .3s ease;
+	pointer-events: all;
+	cursor: pointer;
+}
+.accordion li a:before {
+	color:transparent
+}
+
+.accordion li a:before {
+	content: "\e908";
+}
+
+.accordion li a:before{
+	font-family: "icomoon"!important;
+	speak: never;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body.page-about-us .current-menu-item > a, 
+body.page-about-us .current-menu-parent > a,
+body.page-faqs .current-menu-item > a,
+body.page-faqs .current-menu-parent > a {
+	--current-menu-item-indent:  none;
+}
+
+#mobile-menu .sub-menu li a {
+	font-weight:  normal;
+}
+
+#mobile-menu .sub-menu li:first-child a {
+	font-weight:  700;
+}
+
+/* CHANGES */
+
+.form-white input[type=text].frm_other_input {
+	margin: 20px 0 0;
+}
+
+/**/
+
+.p-bg-str img {
+	left: 0;
+	top: 0;
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+}
+
+@media (max-width: 480px) {
+	.form-box .frm-g-recaptcha {
+		height: 70px;
+		overflow: hidden;
+		width: 275px;
+	}
+	.form-box .frm-g-recaptcha > div {
+		transform: scale(0.9);
+		transform-origin: 0 0;
+	}
+}
+
+.form-search {
+	padding: 0 0 80px 325px;
+}
+
+.form-search.alt {
+	display: flex;
+	justify-content: center;
+	padding: 0 0 80px;
+}
+
+.form-search form {	
+	margin: 0;
+	max-width: 100%;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+
+.form-search input[type="text"] {
+	background-color: #fff;
+	border: 1px solid #DADADA;
+	color: #141C3B;
+	font-size: 18px;
+	line-height: 125%;
+	margin: 0;
+	padding: 20px 40px 20px 20px;
+}
+
+.form-search input[type="submit"] {
+	background: url(images/icon-search.svg) no-repeat 50% 50%;
+	border: none;
+	font-size: 0;
+	height: 40px;
+	padding: 0;
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 40px;
+}
+
+@media (max-width: 1024px) {
+	.form-search {
+		display: flex;
+		justify-content: center;
+		padding: 0 0 80px;
+	}
+}
+
+@media (max-width: 768px) {
+	.form-search {
+		padding: 20px 0 40px;
+	}
+}
+
+.not-found {
+	display: block;
+	margin: 0 auto;
+	max-width: 500px;
+	width: 100%;
+}
+
+.not-found p {
+	font-size: 18px;
+	line-height: 125%;
+	text-align: center;
+}
+
+body[data-theme='orange'] .header-cta-btn,
+body.single .header-cta-btn,
+body.blog .header-cta-btn,
+body.search .header-cta-btn {
+	--header-cta-mob-bg-color:var(--color-blue);
+}
+
+._hide{display:none}
+
+/* .swiper-full .swiper-slide {
+	width: auto !important;
+	max-width: 100%;
+} */
+/* .swiper-full .slide-bgimg img {
+	height: 700px;
+	object-fit: cover;
+} */
+.swiper-full .swiper-slide-next,
+.swiper-full .swiper-slide-prev {
+	cursor: pointer;
+}
+.custom-video .box-play {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+}
+.custom-video .box-play:hover {
+	transform: translate(-50%, -50%) scale(1.1);
+}
+.custom-video .box-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-position: 50% 50%;
+	background-size: cover;
+	z-index: 1;
+}
+.custom-video.active .box-play,
+.custom-video.active .box-bg {
+	display: none;
+}
+/* @media (max-width: 1024px) {
+	.swiper-full .slide-bgimg img {
+		height: 600px;
+	}
+}
+@media (max-width: 768px) {
+	.swiper-full .slide-bgimg img {
+		height: 500px;
+	}
+}
+@media (max-width: 576px) {
+	.swiper-full .slide-bgimg img {
+		height: 400px;
+	}
+} */
+
+
+
+
+
+

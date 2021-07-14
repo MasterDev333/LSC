@@ -1,0 +1,16 @@
+.admin-get-coordinate-wrapper .acf-input-wrap {
+    max-width: 50%;
+}
+
+.admin-get-coordinate-wrapper .acf-input-append {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: none;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 48%;
+}
+
+.admin-get-coordinate-wrapper .acf-input-append input[name=get_coordinate] {
+    margin-right: 15px;
+}
